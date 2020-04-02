@@ -1,4 +1,4 @@
-****Welcome to Virtual Battle Game!****
+****Welcome to Virtual Battle Game!**** [Contructed in C language]
 Contruct an interactive console game with the following rules:
 
 ~~Following are the rules for the game~~
@@ -20,3 +20,5 @@ Contruct an interactive console game with the following rules:
 The inputs can only be taken in form of integers. Also the live status of the game should be printed with each attack. Moreover the game should also ask for playing again as well as maintain and print the no. of games won and lost in a single session. At the end the overall results should be printed as well.
 
 Input Method: Integers will be fed in as and when demanded by the program.
+
+//Note for Evaluation: Could not design the test cases due to the high interactivity of the code... Well! I hope that you will enjoy playing this basic game in this boring quarantine//
