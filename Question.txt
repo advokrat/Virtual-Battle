@@ -1,0 +1,22 @@
+****Welcome to Virtual Battle Game!****
+Contruct an interactive console game with the following rules:
+
+~~Following are the rules for the game~~
+1) There are two contestants A and B in the game, each with an initial strength of 500 points.
+2) Every contestant has four body parts: head, arms, legs and abdomen.
+3) Each participant can either make his/her own body constitution (i.e. distribute the total strength to different body parts) or can continue with the default constitution.
+4) Strength of any of the body parts can not be zero from very beginning.
+5) Attack can be made by only arms and legs, however any of the four body parts of opponent can be attacked.
+6) Turns are provided to A and B in alternate manner. However, the game always starts with turn of A.
+7) If the strength of attacking body part is more than of the attacked body part, then the strength of attacking body part increases by 25% and attacked body part decreases by 50%.
+8) If the strength of attacking body part is less than of the attacked body part, then the strength of attacking body part decreases by 50% and attacked body part decreases by 5%.
+9) If the strength of both attacked and attacking body part is same, then strength of attacked part decreases by 20% and the strength of attacking part remains same.
+10) If any player makes any illegal move then he/she is penalized by reducing the strength of every body part by 50% for every illegal move. Moreover, only 2 spare chances are given to the culprit.
+11) The first person whose strength reaches 50 points or below first, loses the game. However, if upon completion of 10 turns (5 turns of each A and B), strength of none of them is 50 points or below then the one with lower strength loses. The game also terminates as soon as the strength for both arms as well as legs nullifies for any player.
+12) Here are the notations that we'll use in console for inputs:
+--> '1' for Yes! and '0' for No!
+--> '0' for Arms, '1' for Legs, '2' for Head and '3' for Abdomen
+
+The inputs can only be taken in form of integers. Also the live status of the game should be printed with each attack. Moreover the game should also ask for playing again as well as maintain and print the no. of games won and lost in a single session. At the end the overall results should be printed as well.
+
+Input Method: Integers will be fed in as and when demanded by the program.
